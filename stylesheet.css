@@ -1,0 +1,77 @@
+
+body {
+	font: 16px Helvetica, Sans-Serif;
+    background: url(noise.png);
+}
+
+#content {
+	width: 900px;
+	margin: auto;	
+	border-style: groove;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+#content .contact{
+	margin-top:30px;
+	font-size: 21px;
+	font-weight: bold;
+	text-align:center;
+    border-bottom: thin solid black;	
+}
+
+.summary{
+	text-align:center;
+	border-bottom: thin solid black;
+}
+
+h2,h6{
+	margin-bottom:1px;
+	margin-top:2px;
+}
+
+.prof-exp-header{
+	font-size:21px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom: 70px;
+}
+
+.project-header{
+	font-size:18px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#role{
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: -10px;
+}
+
+.date {
+	float: right;
+	margin-bottom: -10px;
+}
+
+.pic {
+	float: right;
+}
+
+
+#prof-exp-detailed {display:none;}
+
+.prof-exp-header button{
+font-size:15px;
+ background-color: #eeeeee;
+ width: 200px;
+ height: 30px;
+ border-radius:5px;
+ box-shadow: 5px 5px 5px #eeeeee;
+}
+
+.prof-exp-header button:hover,.prof-exp-real-estate:hover,.prof-exp-sei:hover,.prof-exp-westat:hover,.prof-exp-bms:hover ,.prof-exp-merrill-lynch:hover,
+.prof-exp-pfizer:hover,.prof-exp-wells-fargo:hover{
+  background-color:#dddddd ;
+}
+
